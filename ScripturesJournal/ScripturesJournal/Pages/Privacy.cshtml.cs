@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Scriptures_Journal.Pages
+namespace ScripturesJournal.Pages
 {
     public class PrivacyModel : PageModel
     {
