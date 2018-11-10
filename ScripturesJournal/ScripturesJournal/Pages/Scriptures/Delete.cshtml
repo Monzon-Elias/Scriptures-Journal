@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "{id:int}"
 @model ScripturesJournal.Pages.Scriptures.DeleteModel
 
 @{
@@ -43,7 +43,7 @@
             @Html.DisplayFor(model => model.Scripture.Notes)
         </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="Scripture.ID" />
         <input type="submit" value="Delete" class="btn btn-default" /> |
