@@ -13,7 +13,7 @@
 
 <form>
     <p>
-        <select asp-for="ScriptureBook" asp-items="Model.Book">
+        <select onmousedown="if(this.options.length>5){this.size=5;}" onchange="this.blur()"  onblur="this.size=0;" asp-for="ScriptureBook" asp-items="Model.Book">
             <option value="">All</option>
         </select>
 
